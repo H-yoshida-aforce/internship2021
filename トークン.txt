@@ -1,0 +1,25 @@
+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
+
+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
+
+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
+
+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
+
+
+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
+
+
+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
+
+
+全部同じ
+
+
+echo "# internship2021" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/H-yoshida-aforce/internship2021.git
+git push -u origin master
