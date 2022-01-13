@@ -1,12 +1,12 @@
 package jp.co.aforce.beans;
 
 public class Login implements java.io.Serializable{
-	private String login_id ;
+	private String loginId;
 	private String name;
 	private String password;
 	
-	public String getLogin_id() {
-		return login_id;
+	public String getLoginId() {
+		return loginId;
 	}
 	
 	public String getName() {
@@ -17,8 +17,8 @@ public class Login implements java.io.Serializable{
 		return password;
 	}
 	
-	public void setLogin_id(String login_id) {
-		this.login_id=login_id;
+	public void setLoginId(String loginId) {
+		this.loginId=loginId;
 	}
 	
 	public void setName(String name) {

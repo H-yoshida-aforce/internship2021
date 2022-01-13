@@ -1,13 +1,13 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
-<%@ include file="../header.html" %>
+<%@ include file="../header.html"%>
 <link rel="stylesheet" type="text/css" href="../login.css">
 
-<%@page import="jp.co.aforce.beans.Login" %>
+<%@page import="jp.co.aforce.beans.Login"%>
 
-<% Login login=(Login)request.getAttribute("login"); %>
+<%
+Login login = (Login) request.getAttribute("login");
+%>
 
-<div class="hello">
-ようこそ、${login.name}さん！
-</div>
+<div class="hello">ようこそ、${login.name}さん！</div>
 
-<%@ include file="../footer.html" %>
+<%@ include file="../footer.html"%>
